@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  "The benefit of having several projects at once"
-tags: motivation improving
 ---
-
 
 I recently had an argument with a colleague about doing a side-project next to my main project.
 Our two positions were mainly that a side-project can give valuable experience and inspiration vs. 
