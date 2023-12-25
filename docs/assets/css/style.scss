@@ -48,3 +48,37 @@
     }
   }
 }
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+    padding: 15px;
+    border-bottom: 1px solid #eaecef; // Adds a subtle line between posts
+    transition: background-color 0.3s; // Smooth transition for hover effect
+
+    &:hover {
+      background-color: #f8f9fa; // Slight highlight on hover
+    }
+  }
+}
+
+.post-list .post-link {
+  color: #0c233d; // Adjust for desired color
+  font-size: 1.25em; // Larger font size
+  text-decoration: none; // Removes underline
+  font-weight: bold; // Makes the font bold
+
+  &:hover {
+    text-decoration: underline; // Underline on hover for a classic look
+  }
+}
+
+.post-list .post-meta {
+  display: block; // Makes the date appear on its own line
+  margin-bottom: 5px; // Adds space between the date and title
+  color: #6c757d; // A softer color for the date
+  font-style: italic; // Italicize the date
+}

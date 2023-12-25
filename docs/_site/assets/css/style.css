@@ -599,3 +599,28 @@ table {
     color: #333; }
     .social-icons a:hover {
       color: #007bff; }
+
+.post-list {
+  margin-left: 0;
+  list-style: none; }
+  .post-list > li {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #eaecef;
+    transition: background-color 0.3s; }
+    .post-list > li:hover {
+      background-color: #f8f9fa; }
+
+.post-list .post-link {
+  color: #0c233d;
+  font-size: 1.25em;
+  text-decoration: none;
+  font-weight: bold; }
+  .post-list .post-link:hover {
+    text-decoration: underline; }
+
+.post-list .post-meta {
+  display: block;
+  margin-bottom: 5px;
+  color: #6c757d;
+  font-style: italic; }
