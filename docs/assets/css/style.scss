@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+/* Bio Container Styles */
+.bio-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+
+  .bio-image img {
+  max-width: 150px; // Adjust as needed
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); // Adding shadow
+  transition: 0.3s; // Optional: for a smooth hover effect
+}
+
+.bio-image img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3); // Optional: larger shadow on hover
+}
+
+  .bio-description {
+    // Add your styles here
+    h2 {
+      // Style for the name
+    }
+    p {
+      // Style for the bio text
+    }
+  }
+}
+
+.social-icons {
+  margin-top: 10px; // Adjust as needed
+
+  a {
+    margin-right: 10px; // Space between icons
+    font-size: 24px; // Icon size
+    color: #333; // Icon color
+
+    &:hover {
+      color: #007bff; // Icon hover color, adjust as needed
+    }
+  }
+}
